@@ -1,5 +1,12 @@
+import React from "react";
+import Home from "./pages/home/Home";
+
 const App = () => {
-  return <div className="bg-purple-500 text-center">App</div>;
+  return (
+    <div className="font-primary">
+      <Home />
+    </div>
+  );
 };
 
 export default App;
